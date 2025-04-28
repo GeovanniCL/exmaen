@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* Estilo general del cuerpo */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Menú */
+.menu {
+  background-color: #1f2f56;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Logo y nombre */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+  border-radius: 6px;
+  border: 2px solid white;
+}
+
+.logo span {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Enlaces horizontales */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-links li a:hover {
+  background-color: #3b4c77;
+}
+
+/* Bienvenida */
+.bienvenida {
+  background-color: white;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bienvenida h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.bienvenida p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.bienvenida img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

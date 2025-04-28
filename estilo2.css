@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*GENERAL*/
+body{
+background-color: #01A9DB;
+font-family: Trebuchet MS;
+font-size: 14px;
+}
+.menu {
+  background-color: #1f2f56;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.imagen {
+  display: flex;
+  align-content: center;
+}
